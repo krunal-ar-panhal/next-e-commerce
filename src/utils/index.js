@@ -3,6 +3,7 @@ export const navOptions = [
       id: "home",
       label: "Home",
       path: "/",
+      className:"inline-block bg-black px-5 py-3 text-xs font-medium uppercase tracking-wide text-white rounded hover:bg-gray-800 transition duration-150"
     },
     {
       id: "listing",
@@ -238,3 +239,8 @@ export const navOptions = [
       componentType: "input",
     },
   ];
+
+ export const buttonClasses ={
+    btnStyles : "inline-block bg-black px-5 py-3 text-xs font-medium uppercase tracking-wide text-white rounded hover:bg-gray-800 transition duration-150"
+ };
+
